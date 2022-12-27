@@ -13,11 +13,12 @@ body {
     border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #container > div {
     background-color: aqua;
-    width: 58px;
-    height: 58px;
+    width: 55px;
+    height: 55px;
     border: 1px solid black;
 }
