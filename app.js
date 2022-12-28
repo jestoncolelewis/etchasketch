@@ -3,7 +3,7 @@ let gridSize = 16;
 const MAX = 100;
 
 // grid
-let divSize = 960/gridSize;
+let divSize = Math.floor(940/gridSize);
 function grid(gridSize) {
     for (let i = 1; i < gridSize * gridSize + 1; i++) {
         const div = document.createElement('div');
