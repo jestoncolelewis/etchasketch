@@ -1,22 +1,26 @@
+*{
+    color: black;
+}
+
 body {
     margin: 0;
+}
+
+#sidebar {
+    margin: 50px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-h1 {
-    margin: 3px;
-}
-
-h2 {
-    text-align: center;
-}
-
-#container {
-    width: 800px;
-    height: 800px;
+#canvas {
+    width: 700px;
+    height: 700px;
     padding: 10px;
+    position: absolute;
+    right: 120px;
+    top: 105px;
+    z-index: 950;
     background-color: aliceblue;
     border: 1px solid black;
     display: flex;
@@ -24,6 +28,13 @@ h2 {
     flex-wrap: wrap;
 }
 
+img {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    z-index: 900;
+}
+
 #container > div {
-    background-color: aqua;
+    background-color: antiquewhite;
 }
