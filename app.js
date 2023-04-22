@@ -3,7 +3,7 @@ let gridSize = 16;
 
 // add grid
 function addGrid(gridSize) {
-    let divSize = Math.floor(800/gridSize);
+    let divSize = Math.floor(700/gridSize);
     for (let i = 1; i < gridSize * gridSize + 1; i++) {
         const div = document.createElement('div');
         div.style.height = (divSize + 'px'); // need to push to html
