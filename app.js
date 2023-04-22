@@ -14,7 +14,7 @@ function addGrid(gridSize) {
     const divs = canvas.querySelectorAll('div');
     divs.forEach((div) => {
         div.addEventListener('mouseenter', () => {
-            div.style.backgroundColor = 'red';
+            div.style.backgroundColor = 'gray';
         });
     });
 };
