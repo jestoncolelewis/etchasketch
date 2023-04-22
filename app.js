@@ -1,4 +1,4 @@
-const container = document.querySelector('#container');
+const canvas = document.querySelector('#canvas');
 let gridSize = 16;
 
 // add grid
@@ -8,10 +8,10 @@ function addGrid(gridSize) {
         const div = document.createElement('div');
         div.style.height = (divSize + 'px'); // need to push to html
         div.style.width = (divSize + 'px'); // need to push to html
-        container.append(div);
+        canvas.append(div);
     }
     // hover
-    const divs = container.querySelectorAll('div');
+    const divs = canvas.querySelectorAll('div');
     divs.forEach((div) => {
         div.addEventListener('mouseenter', () => {
             div.style.backgroundColor = 'red';
@@ -20,9 +20,9 @@ function addGrid(gridSize) {
 };
 
 function removeGrid() {
-    const divs = container.querySelectorAll('div');
+    const divs = canvas.querySelectorAll('div');
     divs.forEach((div) => {
-        container.removeChild(div);
+        canvas.removeChild(div);
     })
 };
 
