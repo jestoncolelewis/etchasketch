@@ -9,6 +9,10 @@ h1 {
     margin: 3px;
 }
 
+h2 {
+    text-align: center;
+}
+
 #container {
     width: 800px;
     height: 800px;
