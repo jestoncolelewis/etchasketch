@@ -9,17 +9,22 @@
     <script src="./app.js" defer></script>
 </head>
 <body>
-    <div id="container"></div>
-    <form action="">
-        <h2>Select a size</h2>
-        <input type="radio" name="radio-button" id="32" onclick="newGrid(32)" />
-        <label for="32">32</label>
-        <input type="radio" name="radio-button" id="50" onclick="newGrid(50)" />
-        <label for="50">50</label>
-        <input type="radio" name="radio-button" id="80" onclick="newGrid(80)" />
-        <label for="80">80</label>
-        <input type="radio" name="radio-button" id="100" onclick="newGrid(100)" />
-        <label for="100">100</label>
-    </form> 
+    <div id="sidebar">
+        <h1>Etch-A-Sketch</h1>
+        <form action="">
+            <h2>Select a size</h2>
+            <input type="radio" name="radio-button" id="35" onclick="newGrid(35)" />
+            <label for="35">35</label>
+            <input type="radio" name="radio-button" id="50" onclick="newGrid(50)" />
+            <label for="50">50</label>
+            <input type="radio" name="radio-button" id="70" onclick="newGrid(70)" />
+            <label for="70">70</label>
+            <input type="radio" name="radio-button" id="100" onclick="newGrid(100)" />
+            <label for="100">100</label>
+        </form>
+    </div> 
+
+    <div id="canvas"></div>
+    <img src="./frame.png" alt="">    
 </body>
 </html>
