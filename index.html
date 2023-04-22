@@ -9,7 +9,17 @@
     <script src="./app.js" defer></script>
 </head>
 <body>
-    <button>Pick Your Size</button>
     <div id="container"></div>
+    <form action="">
+        <h2>Select a size</h2>
+        <input type="radio" name="radio-button" id="32" onclick="newGrid(32)" />
+        <label for="32">32</label>
+        <input type="radio" name="radio-button" id="50" onclick="newGrid(50)" />
+        <label for="50">50</label>
+        <input type="radio" name="radio-button" id="80" onclick="newGrid(80)" />
+        <label for="80">80</label>
+        <input type="radio" name="radio-button" id="100" onclick="newGrid(100)" />
+        <label for="100">100</label>
+    </form> 
 </body>
 </html>
